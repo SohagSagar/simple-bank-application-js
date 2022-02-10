@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="lg:w-3/4  mx-auto">
+    <h1 class="lg:text-5xl md:text-4xl sm:text-3xl mt-16 mb-8 text-center font-semibold">Welcome to <span class="text-lime-600">World Bank</span></h1>
+
+    <div class="w-3/4  mx-auto bg-lime-100 px-8 py-2 shadow-2xl rounded-lg">
+        <h1 class="lg:text-2xl md:text-xl sm:text-md text-center mt-4  font-medium mb-4">Please Login</h1>
+        <p id="errorMessage" class="text-red-500 text-lg mb-2 display: none "></p>
+        <input id="user-email" class="display: block border-2 lg:px-2 sm:px-1 lg:py-2 sm:py-1 lg:w-3/4 sm:w-10/12 rounded mb-4" type="email " placeholder="Enter Email">
+        <input id="user-password" class="display: block border-2 lg:px-2 sm:px-1 lg:py-2 sm:py-1 lg:w-3/4 sm:w-10/12 rounded" type="password" placeholder="Enter Password">
+        <button id="login-btn" class="border-2 lg:px-8 sm:px-4 lg:py-2 sm:py-1 mt-4 rounded mb-4 bg-lime-200 font-semibold">Login</button>
+    </div>
+
+    <script src="js/login.js"></script>
+</body>
+</html>
